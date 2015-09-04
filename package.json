@@ -1,0 +1,24 @@
+{
+  "name": "Evernote",
+  "version": "0.1.0",
+  "description": "An unofficial desktop wrapper for the Evernote web app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "single-instance": true,
+  "window": {
+    "title": "Evernote",
+    "toolbar": false,
+    "position": "center",
+    "width": 800,
+    "height": 600,
+    "icon": "assets/logo.png",
+    "resizable": true
+  },
+  "webkit": {
+    "page-cache": true
+  },
+  "author": "Paul Nordin",
+  "license": "MIT"
+}
